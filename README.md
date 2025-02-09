@@ -1,5 +1,4 @@
-# echomail-site
-<!DOCTYPE html>
+# EchoMail
 <html lang="en">
 <head>
     <meta charset="UTF-8">
