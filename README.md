@@ -12,7 +12,7 @@
             background-color: #f4f4f4;
         }
         header {
-            background: linear-gradient(to right, BLACK, turquoise blue, whitesmoke );
+            background: linear-gradient(to right, BLACK, turquoise );
             color: white;
             padding: 40px;
             text-align: center;
