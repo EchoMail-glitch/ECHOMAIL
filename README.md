@@ -12,132 +12,87 @@
             background-color: #f4f4f4;
         }
         header {
-            background: linear-gradient(to right, BLACK, turquoise );
+            background: linear-gradient(to right, black, turquoise, whitesmoke);
             color: white;
-            padding: 40px;
-            text-align: center;
-            font-size: 36px;
-            font-weight: bold;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         .logo {
-            display: block;
-            margin: 20px auto;
             width: 150px;
         }
-        .hero {
-            text-align: center;
-            padding: 50px;
-            background: white;
-        }
-        .hero h1 {
-            font-size: 48px;
-            color: #333;
-        }
-        .hero p {
-            font-size: 20px;
-            color: #666;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 40px 0;
-        }
-        .section {
-            margin: 50px 0;
-            text-align: center;
-        }
-        .section h2 {
-            font-size: 32px;
-            color: #333;
-        }
-        .grid {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .card {
-            background: white;
-            padding: 20px;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .card h3 {
-            color: #333;
-        }
-        .btn {
+        .menu {
+            position: relative;
             display: inline-block;
-            background: orange;
+        }
+        .menu-btn {
+            background: none;
+            border: none;
             color: white;
-            padding: 12px 24px;
-            text-decoration: none;
-            border-radius: 5px;
             font-size: 18px;
-            font-weight: bold;
-            transition: 0.3s;
+            cursor: pointer;
         }
-        .btn:hover {
-            background: darkorange;
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
         }
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: #333;
-            color: white;
-            text-align: center;
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .menu:hover .dropdown-content {
+            display: block;
         }
     </style>
 </head>
 <body>
-    <header>Join the EchoMail Team</header>
-    
-<img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
-    
-<div class="hero">
-        <h1>Work with Us</h1>
-        <p>Be part of a dynamic, customer-focused team that makes a difference.</p>
-    </div>
-    
-<div class="container">
-        <div class="section">
-            <h2>About EchoMail</h2>
-            <p>EchoMail is a cutting-edge customer service company specializing in email handling for startups and e-commerce businesses. Our goal is to help brands provide exceptional customer support through fast and efficient email responses.</p>
-        </div>
-
-<div class="section">
-            <h2>Our Culture & Values</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>🌟 Customer First</h3>
-                    <p>We prioritize customer satisfaction in everything we do.</p>
-                </div>
-                <div class="card">
-                    <h3>🤝 Team Collaboration</h3>
-                    <p>We believe in working together and supporting each other.</p>
-                </div>
-                <div class="card">
-                    <h3>🚀 Innovation</h3>
-                    <p>We embrace new ideas and constantly seek improvement.</p>
-                </div>
+    <header>
+        <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
+        <div class="menu">
+            <button class="menu-btn">Menu ▼</button>
+            <div class="dropdown-content">
+                <a href="#purpose">Purpose</a>
+                <a href="#careers">Careers</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
-        
-<div class="section">
+    </header>
+    
+<div class="hero">
+        <h1>Join the EchoMail Team</h1>
+        <p>Be part of a dynamic, customer-focused team that makes a difference.</p>
+</div>
+    
+<div class="container">
+        <div class="section" id="purpose">
+            <h2>About EchoMail</h2>
+            <p>EchoMail is a cutting-edge customer service company specializing in email handling for startups and e-commerce businesses. Our goal is to help brands provide exceptional customer support through fast and efficient email responses.</p>
+</div>
+
+<div class="section" id="careers">
             <h2>Current Openings</h2>
             <div class="grid">
                 <div class="card">
                     <h3>Customer Support Representative</h3>
                     <p>Assist customers via email and ensure high-quality responses.</p>
                     <a href="mailto:echomailcare@gmail.com" class="btn">Apply Now</a>
-                </div>
+</div>
                 <div class="card">
                     <h3>Team Lead - Customer Support</h3>
                     <p>Manage a team of support agents and improve response quality.</p>
                     <a href="mailto:echomailcare@gmail.com" class="btn">Apply Now</a>
-                </div>
+</div>
                 <div class="card">
                     <h3>Email Support Specialist</h3>
                     <p>Analyze customer emails and provide detailed solutions.</p>
@@ -145,8 +100,8 @@
                 </div>
             </div>
         </div>
-
-<div class="section">
+        
+<div class="section" id="contact">
             <h2>Contact Us</h2>
             <p>Email: <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
             <p>Phone: +91 98765 43210</p>
