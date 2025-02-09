@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoMail - Professional Email Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(to right, red, green, blue, yellow, orange);
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: orange;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>EchoMail - Every Customer Heard, Every Reply Matters</header>
+    <div class="container">
+        <h2>Welcome to EchoMail</h2>
+        <p>We provide top-notch email customer service for startups and e-commerce businesses.</p>
+        <p>Let us handle your inbox so you can focus on growing your business.</p>
+        <a href="mailto:echomailcare@gmail.com" class="btn">Contact Us</a>
+    </div>
+    <footer>
+        &copy; 2025 EchoMail. All Rights Reserved.
+    </footer>
+</body>
+</html>
