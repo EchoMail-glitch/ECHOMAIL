@@ -12,12 +12,17 @@
             background-color: #f4f4f4;
         }
         header {
-            background: linear-gradient(to right, red, green, blue, orange);
+            background: linear-gradient(to right, BLACK, turquoise blue, whitesmoke );
             color: white;
             padding: 40px;
             text-align: center;
             font-size: 36px;
             font-weight: bold;
+        }
+        .logo {
+            display: block;
+            margin: 20px auto;
+            width: 150px;
         }
         .hero {
             text-align: center;
@@ -89,18 +94,20 @@
 <body>
     <header>Join the EchoMail Team</header>
     
-    <div class="hero">
+<img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
+    
+<div class="hero">
         <h1>Work with Us</h1>
         <p>Be part of a dynamic, customer-focused team that makes a difference.</p>
     </div>
     
-    <div class="container">
+<div class="container">
         <div class="section">
             <h2>About EchoMail</h2>
             <p>EchoMail is a cutting-edge customer service company specializing in email handling for startups and e-commerce businesses. Our goal is to help brands provide exceptional customer support through fast and efficient email responses.</p>
         </div>
 
-        <div class="section">
+<div class="section">
             <h2>Our Culture & Values</h2>
             <div class="grid">
                 <div class="card">
@@ -118,7 +125,7 @@
             </div>
         </div>
         
-        <div class="section">
+<div class="section">
             <h2>Current Openings</h2>
             <div class="grid">
                 <div class="card">
@@ -138,9 +145,16 @@
                 </div>
             </div>
         </div>
+
+<div class="section">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Location: Currently Remote</p>
+        </div>
     </div>
     
-    <footer>
+<footer>
         &copy; 2025 EchoMail. All Rights Reserved.
     </footer>
 </body>
