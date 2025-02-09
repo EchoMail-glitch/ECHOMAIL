@@ -9,11 +9,11 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000000;
+            background-color: #f4f4f4;
         }
         header {
             background: linear-gradient(to right, red, green, blue, orange);
-            color: black;
+            color: white;
             padding: 40px;
             text-align: center;
             font-size: 36px;
