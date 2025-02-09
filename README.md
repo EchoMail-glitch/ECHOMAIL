@@ -26,10 +26,10 @@
             position: relative;
             display: inline-block;
         }
-        .menu-btn {
+        .Menu-btn {
             background: none;
             border: none;
-            color: white;
+            color: Black;
             font-size: 18px;
             cursor: pointer;
         }
@@ -50,7 +50,7 @@
         .dropdown-content a:hover {
             background-color: #ddd;
         }
-        .menu:hover .dropdown-content {
+        .Menu:hover .dropdown-content {
             display: block;
         }
     </style>
