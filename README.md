@@ -12,8 +12,8 @@
             background-color: #f4f4f4;
         }
         header {
-            background: linear-gradient(to right, whitesmoke, turquoise bule, black);
-            color: black;
+            background: linear-gradient(to right, black, turquoise, whitesmoke);
+            color: Black;
             padding: 20px;
             display: flex;
             justify-content: space-between;
@@ -60,27 +60,15 @@
             background: black;
             color: white;
             margin-top: 20px;
-            display: flex;
-            align-items: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            justify-content: space-between;
-            align-items: center;
         }
         .social-links {
-            display: flex;
-            gap: 10px;
+            margin-top: 10px;
         }
-        .social-links img {
-            width: 24px;
-            height: 24px;
-        }
-        .contact-info {
-            display: flex;
-            align-items: center;
-            gap: 20px;
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -101,17 +89,19 @@
 <div class="container">
         <div class="section" id="home">
             <h2>Welcome to EchoMail</h2>
-            <p>EchoMail provides top-notch email customer support solutions for startups and e-commerce businesses.</p>
+            <p>EchoMail provides top-notch email customer support solutions for startups and e-commerce businesses. Our mission is to enhance customer engagement through efficient email handling, ensuring seamless communication between businesses and their customers.</p>
         </div>
 
 <div class="section" id="purpose">
             <h2>Our Purpose</h2>
-            <p>At EchoMail, we bridge the gap in customer service by providing businesses with reliable, efficient, and dedicated email support teams.</p>
+            <p>Our purpose is to get everyone on the same page. Hiring and managing operations teams for day-to-day administration, customer service, and other support roles is very challenging.</p>
+            <p>Most e-commerce companies struggle with it, and outsourced solutions often yield mixed results. Whether outsourcing, hiring freelancers, or building in-house teams, they all come with significant challenges.</p>
+            <p>Frontline teams have the most interactions with customers, yet they are often the least motivated. At EchoMail, we aim to bridge this gap with a seamless, high-quality email support experience. We ensure that every customer interaction is handled professionally, with care and precision.</p>
         </div>
 
 <div class="section" id="careers">
-            <h2>Careers at EchoMail</h2>
-            <p>Explore our opportunities:</p>
+            <h2>Work with Us</h2>
+            <p>We are looking for dedicated professionals to join our customer service team. If you're passionate about helping customers and love solving problems, apply today!</p>
             <ul>
                 <li><a href="#how-we-hire">How We Hire</a></li>
                 <li><a href="#about-us">About Us</a></li>
@@ -121,58 +111,41 @@
             </ul>
         </div>
 
-<div class="section" id="how-we-hire">
-            <h2>How We Hire</h2>
-            <p>Our hiring process is designed to be transparent and effective. We start with an application screening, followed by a skills assessment, and conclude with a final interview. We seek passionate individuals who are ready to deliver top-tier customer service.</p>
+ <div class="section" id="solutions">
+            <h2>Our Solutions</h2>
+            <ul>
+                <li>AI Matching - Streamlined hiring process using AI to find the best customer service representatives.</li>
+                <li>Subscription Staffing - Flexible staffing solutions tailored to business needs.</li>
+                <li>Management Platform - A central hub for tracking customer service efficiency and agent performance.</li>
+            </ul>
         </div>
 
 <div class="section" id="about-us">
             <h2>About Us</h2>
-            <p>EchoMail was founded by Monika V and Vyshika, two sisters passionate about customer service. Monika, an experienced professional, has worked with Razorpay, Anthology, and Oracle Cerner, while Vyshika is currently pursuing engineering at MS Engineering College. Together, they aim to redefine customer support through innovative solutions.</p>
-        </div>
-
-<div class="section" id="join-our-team">
-            <h2>Join Our Team</h2>
-            <p>We are always looking for talented and driven individuals to be part of our team. Whether you’re an experienced professional or just starting out, we have opportunities that match your skill set.</p>
-        </div>
-
-<div class="section" id="faq">
-            <h2>FAQ</h2>
-            <p>Have questions? Find answers to common queries regarding our hiring process, company culture, and career opportunities at EchoMail.</p>
-        </div>
-
-<div class="section" id="articles">
-            <h2>Articles</h2>
-            <p>Stay updated with the latest trends, insights, and news about EchoMail and the customer service industry.</p>
-        </div>
-
-<div class="section" id="solutions">
-            <h2>Our Solutions</h2>
-            <ul>
-                <li>AI Matching</li>
-                <li>Subscription Staffing</li>
-                <li>Management Platform</li>
-            </ul>
+            <p>EchoMail was founded by Monika V and Vyshika, two sisters with a passion for customer service excellence.</p>
+            <p><strong>Monika V:</strong> From Doddamudhanahalli, Devanahalli Taluk, Bangalore Rural. She holds a BE in Electronics and Information from Sri Venkateshwara College of Engineering. With experience at Razorpay, Anthology, and Oracle Cerner, she built her expertise in customer service.</p>
+            <p><strong>Vyshika:</strong> Currently in her 3rd year of Engineering at MS Engineering College, AI branch. Together, they aim to revolutionize customer service with EchoMail.</p>
+          
         </div>
 
 <div class="section" id="contact">
-            <h2>Ready? Let's Talk</h2>
-            <div class="contact-info">
-                <p>Email: <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
-                <p>Phone: +91 9380043805</p>
-                <p>Location: Currently remote</p>
-            </div>
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
+            <p>Phone: +91 9380043805</p>
+            <p>Location: Currently Remote</p>
+            <p>Linkedin: www.linkedin.com/in/echo-mail-408174350</p>
+            <p>Instagram: https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==</p>
+            <p>Twitter: https://twitter.com/echomailcare</p>
         </div>
     </div>
     
 <footer>
-        <p>&copy; 2025 EchoMail. All Rights Reserved. | <a href="#privacy-policy">Privacy Policy</a></p>
+        &copy; 2025 EchoMail. All Rights Reserved.
         <div class="social-links">
-            <img src="twitter-icon.png" alt="Twitter">
-            <img src="linkedin-icon.png" alt="LinkedIn">
-            <img src="instagram-icon.png" alt="Instagram">
+            <a href="https://twitter.com/echomailcare" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank">Instagram</a>
         </div>
     </footer>
 </body>
 </html>
-
