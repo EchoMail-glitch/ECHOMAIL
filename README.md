@@ -111,7 +111,7 @@
             </ul>
         </div>
 
-<div class="section" id="solutions">
+ <div class="section" id="solutions">
             <h2>Our Solutions</h2>
             <ul>
                 <li>AI Matching - Streamlined hiring process using AI to find the best customer service representatives.</li>
@@ -125,7 +125,7 @@
             <p>EchoMail was founded by Monika V and Vyshika, two sisters with a passion for customer service excellence.</p>
             <p><strong>Monika V:</strong> From Doddamudhanahalli, Devanahalli Taluk, Bangalore Rural. She holds a BE in Electronics and Information from Sri Venkateshwara College of Engineering. With experience at Razorpay, Anthology, and Oracle Cerner, she built her expertise in customer service.</p>
             <p><strong>Vyshika:</strong> Currently in her 3rd year of Engineering at MS Engineering College, AI branch. Together, they aim to revolutionize customer service with EchoMail.</p>
-            <p>Contact us at <strong>+91 9380043805</strong> or <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
+          
         </div>
 
 <div class="section" id="contact">
@@ -133,6 +133,9 @@
             <p>Email: <a href="mailto:echomailcare@gmail.com">echomailcare@gmail.com</a></p>
             <p>Phone: +91 9380043805</p>
             <p>Location: Currently Remote</p>
+            <p>Linkedin: www.linkedin.com/in/echo-mail-408174350</p>
+            <p>Instagram: https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==</p>
+            <p>Twitter: https://twitter.com/echomailcare</p>
         </div>
     </div>
     
