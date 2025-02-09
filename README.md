@@ -59,7 +59,7 @@
             padding: 20px;
             background: black;
             color: white;
-            margin-top: 20px;
+            margin-top: 40px;
         }
         .social-links {
             margin-top: 10px;
