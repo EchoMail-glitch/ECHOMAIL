@@ -97,7 +97,8 @@
 </head>
 <body>
     <header>
-       <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt = "EchoMail Logo" class = "logo" >
+       <img src="images/EchoMAIL_NEW_LOGO.png" alt="EchoMail Logo" width="150">
+
 
 Welcome to EchoMail - Smart Email Support
     </header>
