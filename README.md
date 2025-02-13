@@ -1,5 +1,3 @@
-# EchoMail
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +12,7 @@
             color: #333;
         }
         header {
-            background: linear-gradient(to right, red, blue, green, yellow, orange);
+            background: linear-gradient(to Black,turqouise,whitesmoke);
             padding: 20px;
             text-align: center;
             color: white;
