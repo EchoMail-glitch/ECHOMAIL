@@ -99,7 +99,7 @@
 </head>
 <body>
     <header>
-      <img src="C:\Users\monik\AppData\Local\Temp\MicrosoftEdgeDownloads\2f0f2ca9-c037-4286-ad62-92ae2fedf545\EchoMAIL NEW LOGO (2).png" alt="EchoMail Logo" width="150">
+      <img src="[C:\Users\monik\AppData\Local\Temp\MicrosoftEdgeDownloads\2f0f2ca9-c037-4286-ad62-92ae2fedf545\EchoMAIL NEW LOGO (2).png](https://github.com/EchoMail-glitch/ECHOMAIL/blob/69df3ed1abfde3f9a773e2ef705a2f66d27e1273/EchoMAIL%20NEW%20LOGO.png)" alt="EchoMail Logo" width="150">
 
 
 
