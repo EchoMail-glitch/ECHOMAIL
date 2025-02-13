@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EchoMail - Smart Email Support</title>
-        <!-- CSS Inside HTML -->
-    <style>
+    
+   <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -21,29 +21,8 @@
 <body>
     <h1>Welcome to EchoMail</h1>
     <p>Your Smart Email Management Solution</p>
-    <form onsubmit="submitForm(); return false;">
-        <input type="text" id="businessName" placeholder="Enter Business Name" required>
-        <input type="email" id="email" placeholder="Enter Email" required>
-        <input type="tel" id="contactNumber" placeholder="Enter Contact Number" required>
-        <button type="submit">Enroll</button>
-    </form>
-   <!-- JavaScript Inside HTML -->
-    <script>
-        function submitForm() {
-            let businessName = document.getElementById('businessName').value;
-            let email = document.getElementById('email').value;
-            let contactNumber = document.getElementById('contactNumber').value;
 
-  if (businessName && email && contactNumber) {
-                alert("Thank you for enrolling! Our team will contact you soon.");
-            } else {
-                alert("Please fill in all fields before submitting.");
-            }
-        }
-    </script>
-
-
- <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
+  <form action="https://formspree.io/f/{YOUR_FORM_ID}" method="POST">
         <input type="text" name="businessName" placeholder="Enter Business Name" required>
         <input type="email" name="email" placeholder="Enter Email" required>
         <input type="tel" name="contactNumber" placeholder="Enter Contact Number" required>
