@@ -58,7 +58,7 @@
             color: #00B2CA;
         }
         footer {
-            background-color: #000000;
+            background-color: #f4f4f4;
             color: white;
             text-align: center;
             padding: 10px;
@@ -86,7 +86,7 @@
 </head>
 <body>
     <header>
-        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
+        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt = "EchoMail Logo" class ="logo">
         Welcome to EchoMail - Smart Email Support
     </header>
     
