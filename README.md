@@ -139,11 +139,10 @@
         <input type="email" name="email" placeholder="Enter Email" required>
         <input type="tel" name="contactNumber" placeholder="Enter Contact Number" required>
      <button onclick="submitForm()">Submit</button>
-    </div>
-    </form>
+   
+ </form>
 
-</body>
-</html>
+
 
 <footer>
 <p>Follow us on: 
