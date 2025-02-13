@@ -139,17 +139,24 @@
         <input type="text" placeholder="Contact Number" id="contactNumber">
         <button onclick="submitForm()">Submit</button>
     </div>
+
+
+<p>Follow us on: 
+            <a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a> 
+            <a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="20"></a> 
+            <a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20"></a>
+        </p>
+        &copy; 2025 EchoMail. All Rights Reserved.
+  </body>
+</html>
     
 <footer>
-        &copy; 2025 EchoMail. All Rights Reserved.
-    </footer>
-
  <script>
         function scrollToSection(id) {
             document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
         }
 
-        function submitForm() {
+function submitForm() {
             let businessName = document.getElementById('businessName').value;
             let email = document.getElementById('email').value;
             let contactNumber = document.getElementById('contactNumber').value;
