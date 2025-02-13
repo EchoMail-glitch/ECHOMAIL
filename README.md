@@ -100,9 +100,8 @@
 <body>
     <header>
      <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
-
-
-
+ <h1>Echomail</h1>  <!-- REMOVE THIS LINE -->
+   <hr>  <!-- REMOVE THIS LINE -->
 Welcome to EchoMail - Smart Email Support
     </header>
     
