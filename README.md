@@ -98,7 +98,7 @@
 </head>
 <body>
     <header>
-        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
+        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt = "EchoMail Logo" class = "logo" >
         Welcome to EchoMail - Smart Email Support
     </header>
     
@@ -165,5 +165,4 @@ function submitForm() {
             }
         }
     </script>
-</body>
-</html>
+
