@@ -8,16 +8,24 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-color: #ffffff;
             color: #333;
         }
         header {
-            background: linear-gradient(to Black,turqouise,whitesmoke);
+            background: linear-gradient(to right, red, blue, green, yellow, orange);
             padding: 20px;
             text-align: center;
-            color: white;
+            color: black;
             font-size: 24px;
             font-weight: bold;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 50px;
         }
         .container {
             width: 80%;
@@ -35,14 +43,14 @@
             font-weight: bold;
             border-radius: 5px;
         }
-        .features, .testimonials {
+        .features, .vision {
             margin-top: 40px;
             padding: 20px;
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
-        .features h2, .testimonials h2 {
+        .features h2, .vision h2 {
             color: #ff5722;
         }
         footer {
@@ -55,11 +63,14 @@
     </style>
 </head>
 <body>
-    <header>Welcome to EchoMail - Smart Email Support</header>
+    <header>
+        <img src="logo.png" alt="EchoMail Logo" class="logo">
+        Welcome to EchoMail - Smart Email Support
+    </header>
     
-<div class="container">
+ <div class="container">
         <h1>Effortless Email Support for Your Business</h1>
-        <p>At EchoMail, we specialize in providing seamless and efficient email support solutions for startups and e-commerce businesses. Our goal is to ensure that every customer query is handled professionally, promptly, and with a personal touch. With our expert team and smart automation, we help businesses maintain strong customer relationships without the stress of managing overwhelming email volumes.</p>
+        <p>At EchoMail, we specialize in providing seamless and efficient email support solutions for businesses of all sizes. Our goal is to ensure that every customer query is handled professionally, promptly, and with a personal touch. With our expert team and smart automation, we help businesses maintain strong customer relationships without the stress of managing overwhelming email volumes.</p>
         <a href="#" class="cta">🚀 Get Started</a>
         <a href="#" class="cta">📩 Talk to Us</a>
     </div>
@@ -73,11 +84,9 @@
         <p>💡 Easy Integration: Works seamlessly with Gmail, Outlook, and other platforms.</p>
     </div>
     
-<div class="container testimonials">
-        <h2>What Our Clients Say</h2>
-        <p>🌟 “EchoMail has been a game-changer for our e-commerce business! We no longer worry about missing customer emails, and our response time has improved drastically.” – Sarah M., E-Shop Owner</p>
-        <p>🌟 “Highly recommend EchoMail! Their email handling services have saved us time and improved our customer satisfaction scores.” – John D., Startup Founder</p>
-        <p>🌟 “Professional, efficient, and affordable – EchoMail is the perfect solution for businesses looking to streamline customer support.” – Lisa R., SaaS Company CEO</p>
+<div class="container vision">
+        <h2>Our Vision</h2>
+        <p>At EchoMail, our vision is to revolutionize customer support by offering businesses a hassle-free and intelligent email management solution. We believe in providing technology-driven, yet human-centric support services that empower businesses to enhance customer satisfaction, reduce response times, and focus on what they do best. Join us on this journey as we shape the future of email communication.</p>
     </div>
     
  <footer>
