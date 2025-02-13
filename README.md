@@ -12,13 +12,16 @@
             color: #333;
         }
         header {
-            background: linear-gradient(to right, red, blue, green, yellow, orange);
+            background: linear-gradient(to black , turquoise , white );
             padding: 20px;
             text-align: center;
             color: black;
             font-size: 24px;
             font-weight: bold;
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .logo {
             position: absolute;
@@ -28,7 +31,8 @@
             height: 50px;
         }
         .container {
-            width: 80%;
+            width: 90%;
+            max-width: 1200px;
             margin: auto;
             padding: 20px;
             text-align: center;
@@ -60,6 +64,24 @@
             padding: 10px;
             margin-top: 20px;
         }
+        @media (max-width: 768px) {
+            header {
+                font-size: 18px;
+                padding: 15px;
+            }
+            .logo {
+                height: 40px;
+                left: 10px;
+            }
+            .cta {
+                display: block;
+                width: 80%;
+                margin: 10px auto;
+            }
+            .container {
+                width: 95%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -68,7 +90,7 @@
         Welcome to EchoMail - Smart Email Support
     </header>
     
- <div class="container">
+<div class="container">
         <h1>Effortless Email Support for Your Business</h1>
         <p>At EchoMail, we specialize in providing seamless and efficient email support solutions for businesses of all sizes. Our goal is to ensure that every customer query is handled professionally, promptly, and with a personal touch. With our expert team and smart automation, we help businesses maintain strong customer relationships without the stress of managing overwhelming email volumes.</p>
         <a href="#" class="cta">🚀 Get Started</a>
@@ -89,7 +111,7 @@
         <p>At EchoMail, our vision is to revolutionize customer support by offering businesses a hassle-free and intelligent email management solution. We believe in providing technology-driven, yet human-centric support services that empower businesses to enhance customer satisfaction, reduce response times, and focus on what they do best. Join us on this journey as we shape the future of email communication.</p>
     </div>
     
- <footer>
+<footer>
         &copy; 2025 EchoMail. All Rights Reserved.
     </footer>
 </body>
