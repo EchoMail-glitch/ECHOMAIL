@@ -8,14 +8,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
-            color: #333;
+            background-color: #000000;
+            color: #ffffff;
         }
         header {
-            background: linear-gradient(to black , turquoise , white );
+            background: #000000;
             padding: 20px;
             text-align: center;
-            color: black;
+            color: #ffffff;
             font-size: 24px;
             font-weight: bold;
             position: relative;
@@ -38,7 +38,7 @@
             text-align: center;
         }
         .cta {
-            background-color: #ff5722;
+            background-color: #00B2CA;
             color: white;
             padding: 15px;
             display: inline-block;
@@ -50,15 +50,15 @@
         .features, .vision {
             margin-top: 40px;
             padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #1A1A1A;
+            box-shadow: 0 0 10px rgba(0, 178, 202, 0.5);
             border-radius: 8px;
         }
         .features h2, .vision h2 {
-            color: #ff5722;
+            color: #00B2CA;
         }
         footer {
-            background-color: #333;
+            background-color: #000000;
             color: white;
             text-align: center;
             padding: 10px;
@@ -86,7 +86,7 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="EchoMail Logo" class="logo">
+        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
         Welcome to EchoMail - Smart Email Support
     </header>
     
@@ -112,6 +112,10 @@
     </div>
     
 <footer>
+        &copy; 2025 EchoMail. All Rights Reserved.
+    </footer>
+</body>
+</html>
         &copy; 2025 EchoMail. All Rights Reserved.
     </footer>
 </body>
