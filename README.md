@@ -1,3 +1,7 @@
+.AppHeader-globalBar .AppHeader-context-item a {
+    color: #00B2CA !important; /* Change this color code */
+    font-weight: bold;
+}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +12,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000000;
+            background-color: #f4f4f4;
             color: #ffffff;
         }
         header {
@@ -58,7 +62,7 @@
             color: #00B2CA;
         }
         footer {
-            background-color: #f4f4f4;
+            background-color: #000000;
             color: white;
             text-align: center;
             padding: 10px;
@@ -86,7 +90,7 @@
 </head>
 <body>
     <header>
-        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt = "EchoMail Logo" class ="logo">
+        <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt="EchoMail Logo" class="logo">
         Welcome to EchoMail - Smart Email Support
     </header>
     
@@ -112,10 +116,6 @@
     </div>
     
 <footer>
-        &copy; 2025 EchoMail. All Rights Reserved.
-    </footer>
-</body>
-</html>
         &copy; 2025 EchoMail. All Rights Reserved.
     </footer>
 </body>
