@@ -24,11 +24,10 @@
             justify-content: center;
         }
         .logo {
-            position: absolute;
-            left: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            height: 50px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
         }
         .container {
             width: 90%;
@@ -81,16 +80,16 @@
                 font-size: 18px;
                 padding: 15px;
             }
-            .logo {
+            logo {
                 height: 40px;
                 left: 10px;
             }
-            .cta {
+            cta {
                 display: block;
                 width: 80%;
                 margin: 10px auto;
             }
-            .container {
+            container {
                 width: 95%;
             }
         }
@@ -98,7 +97,7 @@
 </head>
 <body>
     <header>
-       <img src="https://yourwebsite.com/EchoMAIL_NEW_LOGO.png" alt="EchoMail Logo" width="150">
+       <img src="/mnt/data/EchoMAIL NEW LOGO.png" alt = "EchoMail Logo" class = "logo" >
 
 Welcome to EchoMail - Smart Email Support
     </header>
