@@ -80,16 +80,16 @@
                 font-size: 18px;
                 padding: 15px;
             }
-            logo {
+            .logo {
                 height: 40px;
                 left: 10px;
             }
-            cta {
+            .cta {
                 display: block;
                 width: 80%;
                 margin: 10px auto;
             }
-            container {
+            .container {
                 width: 95%;
             }
         }
