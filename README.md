@@ -1,7 +1,3 @@
-.AppHeader-globalBar .AppHeader-context-item a {
-    color: #00B2CA !important; /* Change this color code */
-    font-weight: bold;
-}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +8,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: linear-gradient(to bottom, #000000, #00B2CA, #ffffff);
             color: #ffffff;
         }
         header {
@@ -50,15 +46,16 @@
             text-decoration: none;
             font-weight: bold;
             border-radius: 5px;
+            cursor: pointer;
         }
-        .features, .vision {
+        .features, .vision, .unique {
             margin-top: 40px;
             padding: 20px;
-            background-color: #1A1A1A;
+            background-color: rgba(26, 26, 26, 0.9);
             box-shadow: 0 0 10px rgba(0, 178, 202, 0.5);
             border-radius: 8px;
         }
-        .features h2, .vision h2 {
+        .features h2, .vision h2, .unique h2 {
             color: #00B2CA;
         }
         footer {
@@ -67,6 +64,17 @@
             text-align: center;
             padding: 10px;
             margin-top: 20px;
+        }
+        .enrollment {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 178, 202, 0.2);
+            border-radius: 8px;
+        }
+        .enrollment input, .enrollment button {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
         }
         @media (max-width: 768px) {
             header {
@@ -97,8 +105,8 @@
 <div class="container">
         <h1>Effortless Email Support for Your Business</h1>
         <p>At EchoMail, we specialize in providing seamless and efficient email support solutions for businesses of all sizes. Our goal is to ensure that every customer query is handled professionally, promptly, and with a personal touch. With our expert team and smart automation, we help businesses maintain strong customer relationships without the stress of managing overwhelming email volumes.</p>
-        <a href="#" class="cta">🚀 Get Started</a>
-        <a href="#" class="cta">📩 Talk to Us</a>
+        <button class="cta" onclick="scrollToSection('enroll')">🚀 Get Started</button>
+        <button class="cta" onclick="scrollToSection('contact')">📩 Talk to Us</button>
     </div>
     
 <div class="container features">
@@ -110,13 +118,47 @@
         <p>💡 Easy Integration: Works seamlessly with Gmail, Outlook, and other platforms.</p>
     </div>
     
+<div class="container unique">
+        <h2>Unique Features</h2>
+        <p>✔ AI-Powered Prioritization: Our system learns which emails are most important and handles them first.</p>
+        <p>✔ Customizable Automation: Set up rules for auto-responses and workflow triggers.</p>
+        <p>✔ Real-Time Analytics: Track customer queries and measure response efficiency.</p>
+        <p>✔ Multi-Platform Support: Manage emails across multiple accounts from a single dashboard.</p>
+    </div>
+    
 <div class="container vision">
         <h2>Our Vision</h2>
         <p>At EchoMail, our vision is to revolutionize customer support by offering businesses a hassle-free and intelligent email management solution. We believe in providing technology-driven, yet human-centric support services that empower businesses to enhance customer satisfaction, reduce response times, and focus on what they do best. Join us on this journey as we shape the future of email communication.</p>
     </div>
     
+<div id="enroll" class="container enrollment">
+        <h2>Enroll Now</h2>
+        <p>Sign up today and let EchoMail streamline your email management.</p>
+        <input type="text" placeholder="Business Name" id="businessName">
+        <input type="email" placeholder="Email Address" id="email">
+        <input type="text" placeholder="Contact Number" id="contactNumber">
+        <button onclick="submitForm()">Submit</button>
+    </div>
+    
 <footer>
         &copy; 2025 EchoMail. All Rights Reserved.
     </footer>
+
+ <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function submitForm() {
+            let businessName = document.getElementById('businessName').value;
+            let email = document.getElementById('email').value;
+            let contactNumber = document.getElementById('contactNumber').value;
+            if (businessName && email && contactNumber) {
+                alert("Thank you for enrolling! Our team will contact you soon.");
+            } else {
+                alert("Please fill in all fields before submitting.");
+            }
+        }
+    </script>
 </body>
 </html>
