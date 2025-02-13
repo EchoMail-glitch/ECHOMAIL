@@ -134,24 +134,16 @@
 <div id="enroll" class="container enrollment">
         <h2>Enroll Now</h2>
         <p>Sign up today and let EchoMail streamline your email management.</p>
+<form action="https://formspree.io/f/xwpvnaao" method="POST">
         <input type="text" placeholder="Business Name" id="businessName">
         <input type="email" placeholder="Email Address" id="email">
         <input type="text" placeholder="Contact Number" id="contactNumber">
         <button onclick="submitForm()">Submit</button>
-    </div>
-<h1>Welcome to EchoMail</h1>
-    <p>Your Smart Email Management Solution</p>
-
- <form action="https://formspree.io/f/xwpvnaao" method="POST">
-
-<input type="text" name="businessName" placeholder="Enter Business Name" required>
-        <input type="email" name="email" placeholder="Enter Email" required>
-        <input type="tel" name="contactNumber" placeholder="Enter Contact Number" required>
-        <button type="submit">Enroll</button>
-    </form>
+</form>
 
 </body>
 </html>
+    </div>
 <footer>
 <p>Follow us on: 
             <a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a> 
