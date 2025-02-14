@@ -111,9 +111,9 @@
 </head>
 <body>
     <header>
-<div style="display: flex; align-items: center; justify-content: flex-start; padding: 20px;">
-    <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" style="width: 120px; height: auto; margin-right: 15px;">
-    <h2 style="color: white; margin: 0;">Seamless Email Management</h2>
+<div style="display: flex; align-items: center; padding: 20px;">
+   <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo"  style="width: 120px; height: auto; margin-left: 0;">
+    <h2 style="color: white; margin-left: 20px;">Seamless Email Management</h2>
 </div>
 
 <hr>
