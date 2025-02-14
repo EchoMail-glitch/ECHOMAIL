@@ -38,7 +38,7 @@
     justify-content: left;
     align-items: center;
     background-color: black; /* Black background */
-    padding: 20px; /* Adjust padding */
+    padding: 30px; /* Adjust padding */
     max-height: 300px; /* Reduce the height */
     overflow: hidden; /* Prevent extra spacing */
 }
@@ -95,8 +95,8 @@
                 padding: 15px;
             }
             .logo {
-                height:20px;
-                left: 10px;
+                height:30px;
+                left: 30px;
             }
             .cta {
                 display: block;
