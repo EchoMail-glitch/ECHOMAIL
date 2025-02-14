@@ -111,11 +111,11 @@
 </head>
 <body>
     <header>
-<div class="logo-container">
-dir = "rtl"
-<img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="display: flex; align-items: center; justify-content: flex-start; padding: 20px;">
+    <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" style="width: 120px; height: auto; margin-right: 15px;">
+    <h2 style="color: white; margin: 0;">Seamless Email Management</h2>
 </div>
- <h1>ECHOMAIL</h1> 
+
 <hr>
 </header>
     
