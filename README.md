@@ -35,7 +35,7 @@
         }
        .logo-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: black; /* Black background */
     padding: 20px; /* Adjust padding */
