@@ -106,16 +106,14 @@
 <div class="logo-container">
 <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo">
 </div>
- <h1>Echomail</h1>  <!-- REMOVE THIS LINE -->
+ <h1>Welcome to Echomail</h1>  <!-- REMOVE THIS LINE -->
    <hr>  <!-- REMOVE THIS LINE -->
-Welcome to EchoMail - Smart Email Support
-    </header>
+</header>
     
 <div class="container">
         <h1>Effortless Email Support for Your Business</h1>
         <p>At EchoMail, we specialize in providing seamless and efficient email support solutions for businesses of all sizes. Our goal is to ensure that every customer query is handled professionally, promptly, and with a personal touch. With our expert team and smart automation, we help businesses maintain strong customer relationships without the stress of managing overwhelming email volumes.</p>
         <button class="cta" onclick="scrollToSection('enroll')">🚀 Get Started</button>
-        <button class="cta" onclick="scrollToSection('contact')">📩 Talk to Us</button>
     </div>
     
 <div class="container features">
