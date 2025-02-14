@@ -114,7 +114,7 @@
 <div class="logo-container">
 <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo"> 
 </div>
- <h1>Welcome to Echomail</h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <h1>ECHOMAIL</h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <hr>
 </header>
     
