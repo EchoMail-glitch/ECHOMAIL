@@ -25,18 +25,22 @@
             align-items: center;
             justify-content: center;
         }
-        .logo {
-    display: block;
+       .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; /* Black background */
+    padding: 20px; /* Adjust padding */
+    max-height: 300px; /* Reduce the height */
+    overflow: hidden; /* Prevent extra spacing */
+}
+
+.logo-container img {
     max-width: 100%;
     height: auto;
+    max-height: 250px; /* Reduce image height */
 }
-        }
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-            text-align: center;
+
         }
         .cta {
             background-color: #00B2CA;
@@ -83,7 +87,7 @@
                 padding: 15px;
             }
             .logo {
-                height: 40px;
+                height:20px;
                 left: 10px;
             }
             .cta {
