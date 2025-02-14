@@ -106,7 +106,8 @@
 <div class="logo-container">
 <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo">
 </div>
- <h1>Welcome to Echomail</h1>  <!-- REMOVE THIS LINE -->
+ <h1>Welcome to Echomail</h1>  
+    </header>a><!-- REMOVE THIS LINE -->
    <hr>  <!-- REMOVE THIS LINE -->
 </header>
     
