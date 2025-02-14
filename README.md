@@ -112,7 +112,7 @@
 <body>
     <header>
 <div class="logo-container">
-<img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo">
+<img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo"> &nbsp;&nbsp;
 </div>
  <h1>Welcome to Echomail</h1> 
 <hr>
