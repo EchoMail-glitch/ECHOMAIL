@@ -168,14 +168,14 @@ Welcome to EchoMail - Smart Email Support
     </a>   
 Follow us on: 
                
-            
-<a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a>
+<div style="margin: 10px 0;">            
+<a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="25"></a>
     
             
-<a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="20"></a> 
+<a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="25"></a> 
             
-<a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20"></a>
-
+<a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="25"></a>
+</div>
 </p>
         <p style="margin: 0;">All Rights Reserved © EchoMail</p>
     
