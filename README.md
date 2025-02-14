@@ -148,12 +148,17 @@
     </div>
     
 <div id="enroll" class="container enrollment">
-        <h2>📩 Ready to Connect? Let's Talk!</h2>
-         <p>Have questions? Need support? We’re here for you!</p>
-    
-<p><strong>Email Us:</strong> <a href="mailto:echomailcare@gmail.com" style="color: #00B2CA; text-decoration: none; font-weight: bold;">echomailcare@gmail.com</a></p>
-    
-<p>Or, simply fill out our contact form, and we’ll get back to you ASAP! 🚀</p>
+     <h2 style="color: #004466;">📩 Ready to Connect? Let's Talk!</h2>
+<p style="color: #004466;">Have questions? Need support? We’re here for you!</p>
+
+<p><strong>Email Us:</strong> 
+    <a href="mailto:echomailcare@gmail.com" style="color: #004466; text-decoration: none; font-weight: bold;">
+        echomailcare@gmail.com
+    </a>
+</p>
+
+<p style="color: #004466;">Or, simply fill out our contact form, and we’ll get back to you ASAP! 🚀</p>
+
 <form action="https://formspree.io/f/xwpvnaao" method="POST">
       <input type="text" name="businessName" placeholder="Enter Business Name" required>
         <input type="email" name="email" placeholder="Enter Email" required>
