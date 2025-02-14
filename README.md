@@ -135,8 +135,12 @@ Welcome to EchoMail - Smart Email Support
     </div>
     
 <div id="enroll" class="container enrollment">
-        <h2>Enroll Now</h2>
-        <p>Sign up today and let EchoMail streamline your email management.</p>
+        <h2>📩 Ready to Connect? Let's Talk!</h2>
+         <p>Have questions? Need support? We’re here for you!</p>
+    
+<p><strong>Email Us:</strong> <a href="mailto:echomailcare@gmail.com" style="color: #00B2CA; text-decoration: none; font-weight: bold;">echomailcare@gmail.com</a></p>
+    
+<p>Or, simply fill out our contact form, and we’ll get back to you ASAP! 🚀</p>
 <form action="https://formspree.io/f/xwpvnaao" method="POST">
       <input type="text" name="businessName" placeholder="Enter Business Name" required>
         <input type="email" name="email" placeholder="Enter Email" required>
@@ -149,10 +153,16 @@ Welcome to EchoMail - Smart Email Support
 
 <footer>
 <p>Follow us on: 
-            <a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a> 
-            <a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="20"></a> 
-            <a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20"></a>
-        </p>
+               
+            
+<a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a>
+    
+            
+<a href="https://www.instagram.com/echomail_care?igsh=MWV2NjhkcXlwNmZiYg==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" width="20"></a> 
+            
+<a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20"></a>
+
+</p>
         &copy; 2025 EchoMail. All Rights Reserved.
     
 <footer>
