@@ -158,7 +158,15 @@ Welcome to EchoMail - Smart Email Support
 
 
 <footer>
-<p>Follow us on: 
+
+<p> 
+<footer style="background-color: #000000; color: white; text-align: center; padding: 20px;">
+    <h2 style="margin: 0;">EchoMail</h2>
+     <!-- Clickable Privacy Policy -->
+    <a href="privacy-policy.html" style="color: white; text-decoration: none; display: block; margin: 5px 0;">
+        Privacy Policy
+    </a>   
+Follow us on: 
                
             
 <a href="https://www.linkedin.com/in/echo-mail-408174350" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="20"></a>
