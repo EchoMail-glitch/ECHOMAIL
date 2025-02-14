@@ -41,7 +41,7 @@
     max-height: 250px; /* Reduce image height */
 }
 
-        }
+}
         .cta {
             background-color: #00B2CA;
             color: white;
