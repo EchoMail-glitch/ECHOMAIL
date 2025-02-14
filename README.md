@@ -1,3 +1,6 @@
+nav h1, header h1 {
+    display: none;
+}
 <path fill="#4458F6" d="M-.072-.154h44.133v44.308H-.072V-.154Z" data-color="1"></path>
 
 <html lang="en">
