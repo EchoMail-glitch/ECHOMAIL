@@ -38,7 +38,7 @@
 .logo-container img {
     max-width: 100%;
     height: auto;
-    max-height: 250px; /* Reduce image height */
+    max-height: 200px; /* Reduce image height */
 }
 
 }
@@ -50,7 +50,7 @@
             margin-top: 20px;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 5px;
+            border-radius: 1px;
             cursor: pointer;
         }
         .features, .vision, .unique {
@@ -108,7 +108,6 @@
 </div>
  <h1>Welcome to Echomail</h1> 
 <hr>
-    </header>
 </header>
     
 <div class="container">
