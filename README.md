@@ -163,7 +163,7 @@ Welcome to EchoMail - Smart Email Support
 <footer style="background-color: #000000; color: white; text-align: center; padding: 20px;">
     <h2 style="margin: 0;">EchoMail</h2>
      <!-- Clickable Privacy Policy -->
-    <a href="privacy-policy.html" style="color: white; text-decoration: none; display: block; margin: 5px 0;">
+    <a href="privacy-policy.html.docx" style="color: white; text-decoration: none; display: block; margin: 5px 0;">
         Privacy Policy
     </a>   
 Follow us on: 
@@ -177,7 +177,7 @@ Follow us on:
 <a href="https://twitter.com/echomailcare" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" width="20"></a>
 
 </p>
-        &copy; 2025 EchoMail. All Rights Reserved.
+        <p style="margin: 0;">All Rights Reserved © EchoMail</p>
     
 <footer>
  <script>
