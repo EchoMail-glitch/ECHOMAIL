@@ -1,3 +1,11 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let unwantedText = document.querySelector("h1"); // Adjust if needed
+        if (unwantedText && unwantedText.innerText.trim() === "ECHOMAIL") {
+            unwantedText.style.display = "none";
+        }
+    });
+</script>
 
 <path fill="#4458F6" d="M-.072-.154h44.133v44.308H-.072V-.154Z" data-color="1"></path>
 
@@ -6,9 +14,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-nav h1, header h1 {
-    display: none;
-}
         body {
             font-family: Arial, sans-serif;
             margin: 0;
