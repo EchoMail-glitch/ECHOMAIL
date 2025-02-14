@@ -161,7 +161,7 @@ Welcome to EchoMail - Smart Email Support
 
 <p> 
 <footer style="background-color: #000000; color: white; text-align: center; padding: 20px;">
-    <h2 style="margin: 0;">EchoMail</h2>
+    <h2 style="margin: 0;">&nbsp;EchoMail</h2>
      <!-- Clickable Privacy Policy -->
     <a href="privacy-policy.html.docx" style="color: white; text-decoration: none; display: block; margin: 5px 0;">
         Privacy Policy
