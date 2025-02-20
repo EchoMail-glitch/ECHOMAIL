@@ -201,8 +201,7 @@
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
             <a href="faq.html">FAQ</a>
-            <a href="login.html">Login</a>
-        </div>
+             </div>
 <script>
     function toggleMenu() {
         let menu = document.getElementById("menu");
