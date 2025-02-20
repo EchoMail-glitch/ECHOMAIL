@@ -124,31 +124,29 @@
             justify-content: space-between;
             position: relative;
         }
-        .menu-button {
-            font-size: 24px;
-            cursor: pointer;
-            background: none;
-            border: none;
-            color: white;
-        }
-        .menu {
-            display: none;
-            position: absolute;
-            top: 60px;
-            right: 20px;
-            background: rgba(0, 0, 0, 0.9);
-            border-radius: 8px;
-            padding: 10px;
-        }
-        .menu a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-        }
-        .menu a:hover {
-            background: #00B2CA;
-        }
+       .menu {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000; /* Ensures it appears above other content */
+    width: 200px; /* Adjust as needed */
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background: #00B2CA;
+}
+
         .pricing, .features, .login {
              margin-top: 40px;
             padding: 20px;
@@ -205,6 +203,16 @@
             <a href="faq.html">FAQ</a>
             <a href="login.html">Login</a>
         </div>
+<script>
+    function toggleMenu() {
+        let menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        } else {
+            menu.style.display = "block";
+        }
+    }
+</script>
     </header>
     
 <div class="container">
