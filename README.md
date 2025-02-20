@@ -208,6 +208,137 @@ function submitForm() {
             }
         }
     </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoMail</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #000000, #00B2CA, #ffffff);
+            color: #ffffff;
+        }
+        header {
+            background: #000000;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .menu-button {
+            font-size: 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: white;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu a:hover {
+            background: #00B2CA;
+        }
+        .pricing, .features {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 178, 202, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .pricing h2, .features h2 {
+            color: #004466;
+        }
+        .pricing table {
+            width: 100%;
+            background: white;
+            color: black;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        .pricing th, .pricing td {
+            padding: 10px;
+            border: 1px solid #004466;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" style="width: 120px; height: auto;">
+            <h2 style="color: white; margin-left: 20px;">Seamless Email Management</h2>
+        </div>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="menu" id="menu">
+            <a href="purpose.html">Purpose</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </header>
+
+<div class="features">
+        <h2>🚀 Key Features</h2>
+        <p>✅ 24/7 Email Support</p>
+        <p>✅ AI-Powered Email Sorting</p>
+        <p>✅ Secure & Confidential Email Handling</p>
+        <p>✅ Real-Time Analytics & Performance Tracking</p>
+        <p>✅ Multi-Platform Email Integration</p>
+        <p>✅ Automated Responses & Customizable Workflows</p>
+    </div>
+
+<div class="pricing">
+        <h2>📦 Our Pricing Plans</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Features</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Free Trial</td>
+                <td>1 Week Free - Limited Features</td>
+                <td>$0</td>
+            </tr>
+            <tr>
+                <td>Basic Plan</td>
+                <td>Email Support for Small Businesses</td>
+                <td>$9.99/month</td>
+            </tr>
+            <tr>
+                <td>Pro Plan</td>
+                <td>Advanced Features & Priority Support</td>
+                <td>$19.99/month</td>
+            </tr>
+        </table>
+    </div>
+
+<script>
+        function toggleMenu() {
+            let menu = document.getElementById("menu");
+            menu.style.display = menu.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</body>
+</html>
+
 
 
 
