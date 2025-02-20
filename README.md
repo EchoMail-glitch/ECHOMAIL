@@ -108,6 +108,87 @@
             }
         }
     </style>
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #000000, #00B2CA, #ffffff);
+            color: #ffffff;
+        }
+        header {
+            background: #000000;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .menu-button {
+            font-size: 24px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: white;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            border-radius: 8px;
+            padding: 10px;
+        }
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu a:hover {
+            background: #00B2CA;
+        }
+        .pricing, .features, .login {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 178, 202, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .pricing h2, .features h2, .login h2 {
+            color: #004466;
+        }
+        .pricing table {
+            width: 100%;
+            background: white;
+            color: black;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        .pricing th, .pricing td {
+            padding: 10px;
+            border: 1px solid #004466;
+        }
+        .login input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .login button {
+            background: #00B2CA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login button:hover {
+            background: #004466;
+        }
+    </style>
 </head>
 <body>
     <header>
