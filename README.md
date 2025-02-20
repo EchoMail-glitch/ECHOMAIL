@@ -255,14 +255,14 @@ function submitForm() {
         .menu a:hover {
             background: #00B2CA;
         }
-        .pricing, .features {
+        .pricing, .features, .login {
             margin-top: 40px;
             padding: 20px;
             background-color: rgba(0, 178, 202, 0.2);
             border-radius: 8px;
             text-align: center;
         }
-        .pricing h2, .features h2 {
+        .pricing h2, .features h2, .login h2 {
             color: #004466;
         }
         .pricing table {
@@ -275,6 +275,24 @@ function submitForm() {
         .pricing th, .pricing td {
             padding: 10px;
             border: 1px solid #004466;
+        }
+        .login input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .login button {
+            background: #00B2CA;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login button:hover {
+            background: #004466;
         }
     </style>
 </head>
@@ -291,21 +309,12 @@ function submitForm() {
             <a href="about.html">About Us</a>
             <a href="contact.html">Contact</a>
             <a href="faq.html">FAQ</a>
+            <a href="login.html">Login</a>
         </div>
     </header>
 
-<div class="features">
-        <h2>🚀 Key Features</h2>
-        <p>✅ 24/7 Email Support</p>
-        <p>✅ AI-Powered Email Sorting</p>
-        <p>✅ Secure & Confidential Email Handling</p>
-        <p>✅ Real-Time Analytics & Performance Tracking</p>
-        <p>✅ Multi-Platform Email Integration</p>
-        <p>✅ Automated Responses & Customizable Workflows</p>
-    </div>
-
 <div class="pricing">
-        <h2>📦 Our Pricing Plans</h2>
+        <h2>📦 EchoMail Pricing Plans</h2>
         <table>
             <tr>
                 <th>Plan</th>
@@ -313,21 +322,34 @@ function submitForm() {
                 <th>Price</th>
             </tr>
             <tr>
-                <td>Free Trial</td>
-                <td>1 Week Free - Limited Features</td>
-                <td>$0</td>
+                <td>Basic</td>
+                <td>Up to 500 Emails/Month, Basic AI Sorting</td>
+                <td>Free</td>
             </tr>
             <tr>
-                <td>Basic Plan</td>
-                <td>Email Support for Small Businesses</td>
-                <td>$9.99/month</td>
-            </tr>
-            <tr>
-                <td>Pro Plan</td>
-                <td>Advanced Features & Priority Support</td>
-                <td>$19.99/month</td>
+                <td>Pro</td>
+                <td>Unlimited Emails, Priority Support, AI Automation</td>
+                <td>$15/month</td>
             </tr>
         </table>
+    </div>
+
+<div class="features">
+        <h2>✨ Features</h2>
+        <p>✅ AI-Powered Email Sorting</p>
+        <p>✅ Auto-Responses for Common Queries</p>
+        <p>✅ Multi-Account Email Management</p>
+        <p>✅ End-to-End Encryption for Security</p>
+        <p>✅ Customizable Workflows</p>
+    </div>
+
+<div class="login">
+        <h2>🔐 Login to EchoMail</h2>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
     </div>
 
 <script>
@@ -338,7 +360,6 @@ function submitForm() {
     </script>
 </body>
 </html>
-
 
 
 
