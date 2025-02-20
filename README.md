@@ -11,7 +11,7 @@
 
 <html lang="en">
 <head>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -191,6 +191,7 @@
     </style>
 </head>
 <body>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
     <header>
         <div style="display: flex; align-items: center;">
             <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" style="width: 120px; height: auto;">
