@@ -12,6 +12,8 @@
 <html lang="en">
 <head>
 
+<meta name="description" content="EchoMail helps businesses manage emails efficiently. Get a virtual assistant to handle your inbox, customer support, and more.">
+
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
