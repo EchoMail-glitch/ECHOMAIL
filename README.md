@@ -198,7 +198,53 @@
 </div>
 
 <hr>
-</header>
+</header></head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="EchoMAIL NEW LOGO.png" alt="EchoMail Logo" style="width: 120px; height: auto;">
+            <h2 style="color: white; margin-left: 20px;">Seamless Email Management</h2>
+        </div>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <div class="menu" id="menu">
+            <a href="purpose.html">Purpose</a>
+            <a href="packages.html">Packages</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+            <a href="login.html">Login</a>
+        </div>
+    </header>
+
+<div class="pricing">
+        <h2>📦 EchoMail Pricing Plans</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Features</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>Up to 500 Emails/Month, Basic AI Sorting</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Pro</td>
+                <td>Unlimited Emails, Priority Support, AI Automation</td>
+                <td>$15/month</td>
+            </tr>
+        </table>
+    </div>
+
+<div class="features">
+        <h2>✨ Features</h2>
+        <p>✅ AI-Powered Email Sorting</p>
+        <p>✅ Auto-Responses for Common Queries</p>
+        <p>✅ Multi-Account Email Management</p>
+        <p>✅ End-to-End Encryption for Security</p>
+        <p>✅ Customizable Workflows</p>
+    </div>
     
 <div class="container">
         <h1>Effortless Email Support for Your Business</h1>
