@@ -150,14 +150,14 @@
             background: #00B2CA;
         }
         .pricing, .features, .login {
-            margin-top: 40px;
+             margin-top: 40px;
             padding: 20px;
-            background-color: rgba(0, 178, 202, 0.2);
+            background-color: rgba(26, 26, 26, 0.9);
+            box-shadow: 0 0 10px rgba(0, 178, 202, 0.5);
             border-radius: 8px;
-            text-align: center;
         }
         .pricing h2, .features h2, .login h2 {
-            color: #004466;
+            color: #00B2CA;
         }
         .pricing table {
             width: 100%;
@@ -206,36 +206,6 @@
             <a href="login.html">Login</a>
         </div>
     </header>
-
-<div class="pricing">
-        <h2>📦 EchoMail Pricing Plans</h2>
-        <table>
-            <tr>
-                <th>Plan</th>
-                <th>Features</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>Basic</td>
-                <td>Up to 500 Emails/Month, Basic AI Sorting</td>
-                <td>Free</td>
-            </tr>
-            <tr>
-                <td>Pro</td>
-                <td>Unlimited Emails, Priority Support, AI Automation</td>
-                <td>$15/month</td>
-            </tr>
-        </table>
-    </div>
-
-<div class="features">
-        <h2>✨ Features</h2>
-        <p>✅ AI-Powered Email Sorting</p>
-        <p>✅ Auto-Responses for Common Queries</p>
-        <p>✅ Multi-Account Email Management</p>
-        <p>✅ End-to-End Encryption for Security</p>
-        <p>✅ Customizable Workflows</p>
-    </div>
     
 <div class="container">
         <h1>Effortless Email Support for Your Business</h1>
@@ -263,6 +233,27 @@
 <div class="container vision">
         <h2>Our Vision</h2>
         <p>At EchoMail, our vision is to revolutionize customer support by offering businesses a hassle-free and intelligent email management solution. We believe in providing technology-driven, yet human-centric support services that empower businesses to enhance customer satisfaction, reduce response times, and focus on what they do best. Join us on this journey as we shape the future of email communication.</p>
+    </div>
+
+<div class="pricing">
+        <h2>📦 EchoMail Pricing Plans</h2>
+        <table>
+            <tr>
+                <th>Plan</th>
+                <th>Features</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Basic</td>
+                <td>Up to 500 Emails/Month, Basic AI Sorting</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Pro</td>
+                <td>Unlimited Emails, Priority Support, AI Automation</td>
+                <td>$15/month</td>
+            </tr>
+        </table>
     </div>
     
 <div id="enroll" class="container enrollment">
