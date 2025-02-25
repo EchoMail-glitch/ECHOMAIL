@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,71 +6,60 @@
     <title>Dear Future - Login</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Georgia', serif;
+            background-color: #f5e1c0;
             text-align: center;
-            padding: 50px;
+            padding: 20px;
         }
         .container {
-            max-width: 400px;
-            margin: auto;
-            background: white;
+            background: #d4a373;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            display: inline-block;
         }
-        input {
-            width: 100%;
+        input, button {
             padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 10px;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #8b5e3b;
             color: white;
-            padding: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
             border: none;
-            border-radius: 5px;
             cursor: pointer;
-            width: 100%;
+            margin-top: 10px;
         }
         button:hover {
-            background-color: #45a049;
-        }
-        a {
-            display: block;
-            margin-top: 10px;
-            color: #333;
+            background-color: #5c3d2e;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h2>Login to Dear Future</h2>
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <input type="password" id="password" placeholder="Enter your password" required>
+        <h1>Login to Dear Future</h1>
+        <input type="email" id="email" placeholder="Enter your email"><br>
+        <input type="password" id="password" placeholder="Enter your password"><br>
         <button onclick="login()">Login</button>
-        <a href="#">Forgot Password?</a>
-        <a href="#">Create an Account</a>
     </div>
 
 <script>
         function login() {
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
             if (email && password) {
-                alert('Login Successful! Redirecting to Calendar...');
-                window.location.href = 'calendar.html';
+                window.location.href = 'schedule.html';
             } else {
-                alert('Please enter email and password');
+                alert("Please enter your credentials.");
             }
         }
     </script>
 </body>
 </html>
 
-
+<!-- Schedule Page (schedule.html) -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -117,7 +107,6 @@
     </div>
 
 <script>
-        // Set min date to current date
         let today = new Date().toISOString().split('T')[0];
         document.getElementById('schedule-date').setAttribute('min', today);
 
@@ -178,9 +167,9 @@
         <label for="message-type">Choose a Message Type:</label>
         <select id="message-type">
             <option value="text">Text Message (Free)</option>
-            <option value="audio">Audio Message</option>
-            <option value="video">Video Message</option>
-            <option value="gift">Physical Gift (Requires Payment)</option>
+            <option value="audio">Audio Message (Paid)</option>
+            <option value="video">Video Message (Paid)</option>
+            <option value="gift">Physical Gift (India Only)</option>
         </select>
         <br>
         <button onclick="proceed()">Next</button>
@@ -189,7 +178,14 @@
 <script>
         function proceed() {
             let messageType = document.getElementById('message-type').value;
-            if (messageType === "gift") {
+            let userLocation = "India"; // This should be dynamically fetched in a real app
+            
+            if (messageType === "gift" && userLocation !== "India") {
+                alert("Physical Gift is only available in India.");
+                return;
+            }
+            
+            if (messageType === "gift" || messageType === "audio" || messageType === "video") {
                 window.location.href = "payment.html";
             } else {
                 window.location.href = "compose.html?type=" + messageType;
@@ -199,67 +195,6 @@
 </body>
 </html>
 
-import { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
-import Sentiment from "sentiment";
-
-export default function FeedbackAI() {
-  const [feedback, setFeedback] = useState("");
-  const [analysis, setAnalysis] = useState(null);
-  const sentiment = new Sentiment();
-
-  const analyzeFeedback = () => {
-    const result = sentiment.analyze(feedback);
-    const insights = {
-      sentimentScore: result.score,
-      words: result.words,
-      positiveWords: result.positive,
-      negativeWords: result.negative,
-    };
-    setAnalysis(insights);
-  };
-
-  return (
-    <div className="p-4 space-y-4">
-      <Card>
-        <CardContent className="p-4 space-y-4">
-          <h2 className="text-xl font-bold">Submit Feedback</h2>
-          <Textarea
-            value={feedback}
-            onChange={(e) => setFeedback(e.target.value)}
-            placeholder="Type your feedback here..."
-            className="w-full p-2 border rounded"
-          />
-          <Button onClick={analyzeFeedback} className="w-full">
-            Analyze Feedback
-          </Button>
-        </CardContent>
-      </Card>
-      {analysis && (
-        <Card>
-          <CardContent className="p-4">
-            <h2 className="text-xl font-bold">AI Insights</h2>
-            <p>Sentiment Score: {analysis.sentimentScore}</p>
-            <p>Positive Words: {analysis.positiveWords.join(", ") || "None"}</p>
-            <p>Negative Words: {analysis.negativeWords.join(", ") || "None"}</p>
-            <h3 className="mt-4 font-bold">Sentiment Distribution</h3>
-            <ResponsiveContainer width="100%" height={200}>
-              <BarChart data={[{ name: "Score", value: analysis.sentimentScore }]}> 
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Bar dataKey="value" fill={analysis.sentimentScore >= 0 ? "#4caf50" : "#f44336"} />
-              </BarChart>
-            </ResponsiveContainer>
-          </CardContent>
-        </Card>
-      )}
-    </div>
-  );
-}
 
 
    
