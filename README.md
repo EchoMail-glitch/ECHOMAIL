@@ -2,6 +2,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Future - Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        a {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login to Dear Future</h2>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <button onclick="login()">Login</button>
+        <a href="#">Forgot Password?</a>
+        <a href="#">Create an Account</a>
+    </div>
+
+<script>
+        function login() {
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            if (email && password) {
+                alert('Login Successful! Redirecting to Calendar...');
+                window.location.href = 'calendar.html';
+            } else {
+                alert('Please enter email and password');
+            }
+        }
+    </script>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dear Future - Schedule a Message</title>
     <style>
         body {
