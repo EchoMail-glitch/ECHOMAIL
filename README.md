@@ -45,6 +45,19 @@
         <input type="email" id="email" placeholder="Enter your email"><br>
         <input type="password" id="password" placeholder="Enter your password"><br>
         <button onclick="login()">Login</button>
+        <p><a href="#" onclick="forgotPassword()">Forgot Password?</a></p>
+    </div>
+
+<div class="container hidden" id="reset-password-container">
+        <h1>Reset Password</h1>
+        <input type="email" id="reset-email" placeholder="Enter your email"><br>
+        <button onclick="sendResetCode()">Send Code</button>
+        <div class="hidden" id="code-container">
+            <input type="text" id="reset-code" placeholder="Enter Code"><br>
+            <input type="password" id="new-password" placeholder="New Password"><br>
+            <input type="password" id="confirm-password" placeholder="Confirm Password"><br>
+            <button onclick="resetPassword()">Submit</button>
+        </div>
     </div>
 
 <div class="container hidden" id="schedule-container">
@@ -59,15 +72,65 @@
         function login() {
             let email = document.getElementById('email').value;
             let password = document.getElementById('password').value;
+            
+            let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,12}$/;
+            
+            if (!passwordPattern.test(password)) {
+                alert("Password must be 8-12 characters long, include at least 1 uppercase, 1 lowercase, 1 number, and 1 special character.");
+                return;
+            }
+            
             if (email && password) {
                 document.getElementById('login-container').classList.add('hidden');
                 document.getElementById('schedule-container').classList.remove('hidden');
+                alert("Login successful!");
             } else {
                 alert("Please enter your credentials.");
             }
         }
 
-    let today = new Date().toISOString().split('T')[0];
+        function forgotPassword() {
+            document.getElementById('login-container').classList.add('hidden');
+            document.getElementById('reset-password-container').classList.remove('hidden');
+        }
+        
+        function sendResetCode() {
+            let email = document.getElementById('reset-email').value;
+            if (email) {
+                alert("A reset code has been sent to your email.");
+                document.getElementById('code-container').classList.remove('hidden');
+            } else {
+                alert("Please enter your email.");
+            }
+        }
+
+     function resetPassword() {
+            let code = document.getElementById('reset-code').value;
+            let newPassword = document.getElementById('new-password').value;
+            let confirmPassword = document.getElementById('confirm-password').value;
+            
+            let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,12}$/;
+            
+            if (!passwordPattern.test(newPassword)) {
+                alert("Password must be 8-12 characters long, include at least 1 uppercase, 1 lowercase, 1 number, and 1 special character.");
+                return;
+            }
+            
+            if (newPassword !== confirmPassword) {
+                alert("Passwords do not match.");
+                return;
+            }
+            
+            if (code) {
+                alert("Password reset successful!");
+                document.getElementById('reset-password-container').classList.add('hidden');
+                document.getElementById('schedule-container').classList.remove('hidden');
+            } else {
+                alert("Invalid code.");
+            }
+        }
+
+        let today = new Date().toISOString().split('T')[0];
         document.getElementById('schedule-date').setAttribute('min', today);
 
         function goToForm() {
